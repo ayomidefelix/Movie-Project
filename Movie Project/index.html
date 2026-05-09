@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="img/Logo.png" alt="logo" />
+      </div>
+
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search...."
+          onkeyup="searchFunction()"
+          autocomplete="on"
+        />
+      </div>
+      <div class="category">
+        <button class="drop-btn" id="categoryBtn">
+          Genres <span class="arrow">&#9662</span>
+        </button>
+        
+        <div class="drop-content" id="categoryMenu">
+          <div class="drop-grid">
+         <a href="#">Action</a>
+         <a href="#">Anime</a>
+         <a href="#">Comedies</a>
+         <a href="#">Documentaries</a>
+         <a href="#">Dramas</a>
+         <a href="#">Horro</a>
+         <a href="#">Sci-Fi</a>
+         <a href="#">Thriller</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <ul class="navlist">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+    <h2>Treading Movies</h2>
+    <div class="slider-cont">
+      <div class="slide slide-1">
+        <img src="img/Img(1).jpg" alt="" />
+        <h1>Slide One</h1>
+      </div>
+
+      <div class="slide slide-2">
+        <!-- <img src="img/Img(2).jpg" alt="" /> -->
+        <h1>Slide Two</h1>
+      </div>
+
+      <div class="slide slide-3">
+        <!-- <img src="img/Img(3).jpg" alt="" /> -->
+        <h1>Slide Three</h1>
+      </div>
+
+      <div class="slide slide-4">
+        <!-- <img src="img/Img(4).jpg" alt="" /> -->
+        <h1>Slide Four</h1>
+      </div>
+    </div>
+
+    <button id="prev" class="nav-btn left">❮</button>
+    <button id="next" class="nav-btn right">❯</button>
+
+
+    <section class="movie-card">
+      <p class="movie-type">Movies</p>
+      <section class="movie-card-1">
+        <div class="card-box">
+          <img src="img/card (1).png" />
+          <h3>Alien</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (2).jpg" />
+          <h3>Simpsons</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (3).jpg" />
+          <h3>Cat Paw</h3>
+          <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (4).jpg" />
+          <h3>Dark Knight</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+      </section>
+      
+      <section class="movie-card-2">
+        <div class="card-box">
+          <img src="img/card (5).jpg" />
+          <h3>Avater</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+        
+
+        <div class="card-box">
+          <img src="img/card (6).jpg" />
+          <h3>Hulk</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (7).jpg" />
+          <h3>Hearley Queen</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (8).jpg" />
+          <h3>JJK</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+      </section>
+      <button>More</button>
+    </section>
+
+    
+    <section class="movie-card">
+       <p class="movie-type">Series</p>
+      <section class="movie-card-1">
+        <div class="card-box">
+          <img src="img/card (1).png" />
+          <h3>Alien</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (2).jpg" />
+          <h3>Simpsons</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (3).jpg" />
+          <h3>Cat Paw</h3>
+          <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (4).jpg" />
+          <h3>Dark Knight</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+      </section>
+      
+      <section class="movie-card-2">
+        <div class="card-box">
+          <img src="img/card (5).jpg" />
+          <h3>Avater</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+        
+
+        <div class="card-box">
+          <img src="img/card (6).jpg" />
+          <h3>Hulk</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (7).jpg" />
+          <h3>Hearley Queen</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img src="img/card (8).jpg" />
+          <h3>JJK</h3>
+           <p class="release-date">2017-07-29</p>
+          <div class="release-badge">
+            <span class="star">&#9733</span>
+            <span class="score">8.9</span>
+          </div>
+        </div>
+      </section>
+      <button>More</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

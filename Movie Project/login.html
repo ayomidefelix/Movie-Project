@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login System</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <section id="main-login-page" class="split-screen">
+        <div class="design-side main-bg">
+            <div class="login-logo">
+                <img src="img/Logo.png" alt="" srcset="">
+            </div>
+            <div class="content">
+                <h1>Welcome!</h1>
+                <p>Experience the new age of streaming movies.</p>
+            </div>
+        </div>
+        <div class="form-side">
+            <div class="form-container">
+                <h2>Login</h2>
+                <form id="main-form">
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" required />
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required />
+                    </div>
+                    <button type="submit" class="btn-primary">Continue</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="returning-user-page" class="split-screen hidden">
+        <div class="design-side returning-bg">
+             <div class="login-logo">
+                <img src="img/Logo.png" alt="" srcset="">
+             </div>
+            <div class="content">
+                <h1>Welcome Back!</h1>
+                <p>It's good to see you again.</p>
+            </div>
+        </div>
+        <div class="form-side">
+            <div class="form-container">
+                <h2>Returning User</h2>
+                <form id="returning-form">
+                    <div class="input-group">
+                        <label for="r-username">Username</label>
+                        <input type="text" id="r-username" required />
+                    </div>
+                    <div class="input-group">
+                        <label for="r-password">Password</label>
+                        <input type="password" id="r-password" required />
+                    </div>
+                    <div class="button-row">
+                        <button type="submit" class="btn-primary">Login</button>
+                        <button type="reset" class="btn-secondary">Clear</button>
+                    </div>
+                    <div class="footer-link">
+                        <p>Not you? <a href="#" id="reset-session">Start as new user</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="login.js"></script>
+</body>
+</html>
