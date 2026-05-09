@@ -378,11 +378,14 @@ nav.bars {
 }
 
 .movie-card-1 {
-  display: flex;
+  /* display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap; */
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
 }
 
 .movie-card-2 {
@@ -400,6 +403,8 @@ nav.bars {
   cursor: pointer;
   transition: 0.3s;
   transform: scale(1.05);
+  width: 10rem;
+  flex-shrink:0;
 }
 
 .card-box img {
