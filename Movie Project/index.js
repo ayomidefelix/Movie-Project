@@ -118,7 +118,7 @@ const options = {
   headers: {
     accept: 'application/json',
     Authorization:
-      'Bearer eyJhbGciOiJIUzI1NiJ9.ertyuiuhgfhjkjhgfhjkjhghhdtrdrytgujjfog09ew0rijvif9wfjdkfj iwoeurijff989efnu9fnvjef9fneuidhf9hhnfug98whebnwieuhg9wehnwv9nv03r9ir0oqdm',
+      'Bearer edljfkldsjfsd.f.ds,,dsfjdskfds,dfdskfdsfdsklfjkdsjfdjkdsjfkjdskfjdsjfldsjfklsdjfkjdsfjajfkldjsklfjdskjfkdsjfeojwjakljddslfdkjfskjfalfjdkfjdljajkfsakjfa;sdks',
   },
 };
 
